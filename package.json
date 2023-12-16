@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js",
+    "start": "node src/server.js",
     "dev": "nodemon src/server.js"
   },
   "author": "",
@@ -17,9 +17,7 @@
   },
   "devDependencies": {
     "javascript": "^1.0.0",
-    "prisma": "^5.7.0",
-    "tsup": "^8.0.1",
-    "tsx": "^4.6.2"
+    "prisma": "^5.7.0"
   },
   "repository": {
     "type": "git",
